@@ -146,7 +146,7 @@ For a freely propagating massive particle,
 \[
 p_\mu=m u_\mu,
 \qquad
-u^\mu\equiv\frac{dx^\mu}{d\tau},
+u^\mu \text{ replaced by } u^\mu\equiv\frac{dx^\mu}{d\tau},
 \]
 
 so
