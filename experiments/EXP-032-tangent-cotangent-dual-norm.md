@@ -122,7 +122,7 @@ For a free massive particle,
 \[
 p_\mu=m u_\mu,
 \qquad
-u^\mu=\frac{dx^\mu}{d\tau}.
+u^\mu \text{ is not used; } u^\mu\equiv\frac{dx^\mu}{d\tau}.
 \]
 
 Then
