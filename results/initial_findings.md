@@ -122,7 +122,7 @@ Thus trace-free radiation and traceful matter source the Ricci scalar differentl
 
 ### Status
 
-**Standard GR, but the strongest covariant bridge found so far for the original LTG intuition.**
+**Standard GR, but the strongest 4D covariant bridge found so far for the original LTG intuition.**
 
 ## Finding F-006 — Radiation-to-matter conversion changes curvature and acceleration, not instantaneous H at fixed total density
 
@@ -165,9 +165,9 @@ so radiation-to-matter conversion increases the Ricci scalar.
 
 **Partial standard-physics echo of the original hypothesis; no extra expansion law found.**
 
-## Finding F-007 — Current novelty boundary
+## Finding F-007 — 4D-only novelty boundary
 
-The following chain is now established without new physics:
+The following chain is established without new physics:
 
 \[
 \text{null/timelike mass shell}
@@ -177,16 +177,180 @@ The following chain is now established without new physics:
 \text{different scalar curvature and FRW pressure response}.
 \]
 
-A genuinely new LTG theory must add a covariantly derived residual beyond this chain. It must not be merely:
-
-- rapidity/proper-time reparameterization;
-- a field-dependent mass already covered by ordinary QFT mechanisms;
-- an ordinary scalar-tensor model;
-- an `f(R,T)` re-labeling;
-- a cosmological constant or conventional fluid component.
+A genuinely new 4D LTG theory must add a covariantly derived residual beyond this chain and not merely reproduce rapidity, field-dependent mass, ordinary scalar-tensor dynamics, `f(R,T)` gravity, or a conventional fluid.
 
 ### Status
 
-**Next source of possible novelty identified.**
+**4D novelty route remains open but strongly constrained.**
 
-The next experiment should search for a minimal covariant residual and attempt to prove either that it reduces to an established theory class or that it produces one distinct invariant prediction.
+## Finding F-008 — A 5D null lift gives an exact geometrical time/mass correspondence
+
+For a product metric with one spacelike hidden coordinate `psi`,
+
+\[
+dS_5^2=ds_4^2+d\psi^2,
+\]
+
+a 5D null trajectory obeys
+
+\[
+dS_5^2=0.
+\]
+
+If its 4D projection is timelike,
+
+\[
+ds_4^2=-c^2d\tau^2,
+\]
+
+then
+
+\[
+\boxed{c\,d\tau=|d\psi|.}
+\]
+
+The 5D null momentum condition similarly gives
+
+\[
+\boxed{mc=|p_\psi|.}
+\]
+
+Thus 4D proper-time displacement and rest mass can be interpreted as hidden-coordinate displacement and momentum in a higher-dimensional null geometry.
+
+### Status
+
+**Exact but known Kaluza-Klein/null-lift structure.**
+
+It is the closest geometrical realization found so far of the LTG core intuition.
+
+## Finding F-009 — 5D vacuum dynamics can correlate visible expansion, internal contraction, and an effective mass scale
+
+For the 5D vacuum Kasner ansatz
+
+\[
+dS_5^2=-c^2dt^2+a(t)^2d\mathbf{x}^2+b(t)^2d\psi^2,
+\]
+
+with
+
+\[
+a\propto t^p,\qquad b\propto t^q,
+\]
+
+the nontrivial branch of
+
+\[
+3p+q=1,\qquad3p^2+q^2=1
+\]
+
+is
+
+\[
+\boxed{p=1/2,\qquad q=-1/2.}
+\]
+
+Therefore
+
+\[
+\boxed{a\propto t^{1/2},\qquad b\propto t^{-1/2},\qquad ab=\text{const}.}
+\]
+
+For a 5D null mode with conserved hidden momentum,
+
+\[
+m_{eff}=\frac{|p_\psi|}{bc},
+\]
+
+so on this branch
+
+\[
+\boxed{m_{eff}\propto b^{-1}\propto a.}
+\]
+
+Visible space expands while the internal direction contracts and the KK mass scale grows.
+
+### Status
+
+**Coherent known higher-dimensional realization; not novel.**
+
+The relation is potentially useful but a literal late-time application to observed particle masses would require careful phenomenological testing and likely stabilization of the internal dimension.
+
+## Finding F-010 — Massive 4D quantum phase is hidden-direction translation phase
+
+Combining
+
+\[
+p_\psi=mc
+\]
+
+with
+
+\[
+d\psi=c\,d\tau
+\]
+
+gives
+
+\[
+\boxed{p_\psi d\psi=mc^2d\tau.}
+\]
+
+Hence the proper-time phase
+
+\[
+\frac{mc^2\tau}{\hbar}
+\]
+
+is identical, in the minimal null lift, to the hidden spatial plane-wave phase
+
+\[
+\frac{p_\psi\psi}{\hbar}.
+\]
+
+Moreover, a 5D massless scalar field
+
+\[
+\Box_5\Psi=0
+\]
+
+with mode
+
+\[
+\Psi(x,\psi)=\phi(x)e^{ik_\psi\psi}
+\]
+
+reduces to
+
+\[
+\left(\Box_4-k_\psi^2\right)\phi=0,
+\]
+
+which is the 4D massive Klein-Gordon equation when
+
+\[
+k_\psi=mc/\hbar.
+\]
+
+### Status
+
+**Exact standard dimensional reduction, now verified at both classical and field levels.**
+
+## Finding F-011 — Revised strongest LTG formulation
+
+The original statement
+
+> matter converts light into time and expands space
+
+is too literal and conflicts with how standard QFT describes particle conversion.
+
+The strongest mathematically coherent reformulation found so far is:
+
+> 4D null and timelike behavior can be different projections or momentum sectors of a deeper null geometry; 4D rest mass and proper-time phase can emerge from hidden-direction momentum and phase, while higher-dimensional geometry can correlate visible expansion with internal evolution.
+
+Every component of this formulation has known precedents in Kaluza-Klein, null-lift, and dynamical-compactification physics.
+
+### Status
+
+**Promising unifying interpretation; no isolated new invariant yet.**
+
+The next research gate is to identify whether LTG supplies any invariant relation or dynamical coupling not equivalent to established higher-dimensional dimensional reduction, radion/scalar-tensor dynamics, or induced-matter constructions.
