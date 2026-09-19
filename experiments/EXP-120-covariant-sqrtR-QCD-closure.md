@@ -1,0 +1,479 @@
+# EXP-120 — Covariant square-root-curvature completion of the QCD topological response
+
+## Objective
+
+Replace the heuristic dark-fluid ansatz
+
+\[
+\rho_X\propto H
+\]
+
+by a generally covariant action that reproduces a term linear in the de Sitter curvature scale without choosing an infrared length by hand.
+
+This is a new LTG/QCD **conditional branch**, not a repair of EXP-100.
+
+---
+
+## 1. Minimal nonanalytic covariant action
+
+Define a dimension-three QCD scale
+
+\[
+\boxed{
+\mu^3
+\equiv
+\kappa_R
+\frac{B_\theta}{m_{\eta'}}.
+}
+\]
+
+Consider
+
+\[
+\boxed{
+S
+=
+\int d^4x\sqrt{-g}
+\left[
+\frac{\bar M_P^2}{2}R
+-
+\mu^3\sqrt{\frac{R}{12}}
+\right].
+}
+\]
+
+For exact de Sitter,
+
+\[
+R=12H^2,
+\]
+
+so the additional Lagrangian density becomes
+
+\[
+-\mu^3|H|.
+\]
+
+Thus the desired linear curvature scale appears without identifying any arbitrary
+
+\[
+L_{\rm IR}.
+\]
+
+---
+
+## 2. f(R) notation
+
+Write
+
+\[
+S
+=
+\frac{\bar M_P^2}{2}
+\int d^4x\sqrt{-g}\,f(R)
+\]
+
+with
+
+\[
+\boxed{
+f(R)
+=
+R-2\alpha\sqrt R,
+}
+\]
+
+where
+
+\[
+\boxed{
+\alpha
+=
+\frac{\mu^3}
+{\sqrt{12}\,\bar M_P^2}.
+}
+\]
+
+The square-root \(f(R)\) functional form itself has prior art in modified-gravity studies.
+
+The LTG/QCD-specific hypothesis is the identification of its mass scale with the QCD theta-sector amplitude.
+
+---
+
+## 3. Constant-curvature equation
+
+A vacuum constant-curvature solution of metric \(f(R)\) gravity satisfies
+
+\[
+\boxed{
+Rf_R-2f=0.
+}
+\]
+
+For
+
+\[
+f(R)=R-2\alpha\sqrt R,
+\]
+
+\[
+f_R
+=
+1-\frac{\alpha}{\sqrt R}.
+\]
+
+Hence
+
+\[
+R\left(
+1-\frac{\alpha}{\sqrt R}
+\right)
+-
+2\left(
+R-2\alpha\sqrt R
+\right)
+=
+0.
+\]
+
+Therefore
+
+\[
+-R+3\alpha\sqrt R=0.
+\]
+
+Besides the flat branch,
+
+\[
+R=0,
+\]
+
+the positive-curvature solution is
+
+\[
+\boxed{
+\sqrt{R_*}=3\alpha.
+}
+\]
+
+Thus
+
+\[
+R_*=9\alpha^2.
+\]
+
+Because
+
+\[
+R_*=12H_*^2,
+\]
+
+\[
+\boxed{
+H_*
+=
+\frac{\sqrt3}{2}\alpha.
+}
+\]
+
+Substitute the QCD scale:
+
+\[
+\boxed{
+H_*
+=
+\frac{\mu^3}{4\bar M_P^2}.
+}
+\]
+
+Finally,
+
+\[
+\boxed{
+H_*
+=
+\kappa_R
+\frac{B_\theta}
+{4m_{\eta'}\bar M_P^2}.
+}
+\]
+
+### Result 120A — covariant QCD hierarchy closure
+
+A nonzero de Sitter scale is generated algebraically from QCD and the Planck scale without:
+
+- inserting \(H_0\);
+- choosing \(L=H^{-1}\);
+- choosing \(L=2\pi/H\);
+- treating the topological term as a separately conserved perfect fluid.
+
+---
+
+## 4. Comparison with the fluid closure
+
+EXP-117's fluid-like closure gave
+
+\[
+H_*^{\rm fluid}
+=
+\kappa_{\rm dS}
+\frac{B_\theta}
+{3m_{\eta'}\bar M_P^2}.
+\]
+
+The square-root-action closure gives
+
+\[
+H_*^{\sqrt R}
+=
+\kappa_R
+\frac{B_\theta}
+{4m_{\eta'}\bar M_P^2}.
+\]
+
+For the same numerical microscopic coefficient,
+
+\[
+\boxed{
+H_*^{\sqrt R}
+=
+\frac34
+H_*^{\rm fluid}.
+}
+\]
+
+Therefore matching the same late curvature requires
+
+\[
+\boxed{
+\kappa_R^{\rm target}
+=
+\frac43
+\kappa_{\rm dS}^{\rm target}.
+}
+\]
+
+Using the two-flavor benchmark
+
+\[
+\kappa_{\rm dS}^{\rm target}
+\simeq0.131,
+\]
+
+gives
+
+\[
+\boxed{
+\kappa_R^{\rm target}
+\simeq0.175.
+}
+\]
+
+This remains an order-\(10^{-1}\) coefficient.
+
+---
+
+## 5. De Sitter stability checks
+
+At
+
+\[
+\sqrt{R_*}=3\alpha,
+\]
+
+we have
+
+\[
+\boxed{
+f_R(R_*)
+=
+1-\frac13
+=
+\frac23
+>0.
+}
+\]
+
+Furthermore,
+
+\[
+f_{RR}
+=
+\frac{\alpha}{2R^{3/2}}.
+\]
+
+At the fixed point,
+
+\[
+\boxed{
+f_{RR}(R_*)
+=
+\frac{1}{54\alpha^2}
+>0.
+}
+\]
+
+Thus the standard no-antigravity/no-tachyon sign tests are satisfied there.
+
+The scalaron mass around a constant-curvature point is
+
+\[
+m_s^2
+=
+\frac{f_R}{3f_{RR}}
+-
+\frac{R}{3}.
+\]
+
+Substitution gives
+
+\[
+\boxed{
+m_s^2
+=
+9\alpha^2
+=
+R_*
+=
+12H_*^2
+>0.
+}
+\]
+
+### Result 120B
+
+The nonzero de Sitter point of the minimal square-root branch is linearly stable under the standard scalaron mass criterion.
+
+---
+
+## 6. Early/high-curvature GR limit
+
+For
+
+\[
+R\gg\alpha^2,
+\]
+
+\[
+f_R
+=
+1-\frac{\alpha}{\sqrt R}
+\to1,
+\]
+
+and
+
+\[
+\frac{2\alpha\sqrt R}{R}
+=
+\frac{2\alpha}{\sqrt R}
+\to0.
+\]
+
+Therefore the modification becomes parametrically small at high curvature:
+
+\[
+\boxed{
+f(R)\to R.
+}
+\]
+
+This makes a standard radiation/matter regime possible in principle, unlike treating the \(\rho\propto H\) component as a rigid perfect fluid with a fixed effective perturbation prescription.
+
+A full cosmological viability calculation is still required.
+
+---
+
+## 7. LTG capacity formula for this branch
+
+Using
+
+\[
+\ln D_{\rm tot}
+=
+8\pi^2
+\frac{\bar M_P^2}{H_*^2},
+\]
+
+and
+
+\[
+H_*^2
+=
+\frac{
+\kappa_R^2B_\theta^2
+}{
+16m_{\eta'}^2\bar M_P^4
+},
+\]
+
+we obtain
+
+\[
+\boxed{
+\ln D_{\rm tot}
+=
+128\pi^2
+\frac{
+m_{\eta'}^2\bar M_P^6
+}{
+\kappa_R^2B_\theta^2
+}.
+}
+\]
+
+This differs from the fluid closure coefficient
+
+\[
+72\pi^2
+\]
+
+because the gravitational variation of the \(\sqrt R\) term is not equivalent to inserting an ordinary fluid with density equal to its Lagrangian value.
+
+---
+
+## 8. Critical theoretical caveat
+
+A \(\sqrt R\) term is nonanalytic at
+
+\[
+R=0.
+\]
+
+It is not generated by the ordinary analytic local derivative expansion of a gapped QFT.
+
+Thus EXP-120 is scientifically relevant only if the QCD topological sector genuinely produces the nonanalytic/global infrared physics demanded by EXP-114.
+
+This is precisely the unresolved microscopic question.
+
+---
+
+## Terminal classification
+
+### Covariant completion of a linear de Sitter scale
+
+\[
+\boxed{\text{ANALYTIC PASS}.}
+\]
+
+### Functional form \(f(R)=R-2\alpha\sqrt R\)
+
+\[
+\boxed{\text{PRIOR ART}.}
+\]
+
+### QCD derivation of its coefficient
+
+\[
+\boxed{\text{OPEN}.}
+\]
+
+### Stable nonzero de Sitter point
+
+\[
+\boxed{\text{PASS at the fixed-point level}.}
+\]
+
+## Active next gate
+
+Derive the full FLRW trajectory and perturbative stability of the QCD-normalized square-root branch and compare it prospectively with the minimal ghost-fluid branch.
