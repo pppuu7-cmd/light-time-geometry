@@ -6,356 +6,188 @@ Test the hypothesis:
 
 > Cosmological expansion stretches a photon until its measured energy reaches zero; continued geometric evolution then drives the photon onto a negative-energy branch, and that branch may behave as dark energy while the photon continues propagating outside our observable region.
 
-The test is split into four gates:
-
-1. Can ordinary FLRW redshift drive a future-directed photon through (E=0)?
-2. If a negative photon-energy branch is imposed, does it have the stress-energy of dark energy?
-3. Is crossing a cosmological horizon related to an energy-sign flip?
-4. Can a consistent radiation-to-vacuum conversion model be written, and what new ingredient does it require?
-
 ## 1. Geometric redshift in FLRW
 
 For spatially flat FLRW,
 
-[
-ds^2=-dt^2+a(t)^2 dmathbf{x}^2.
-]
+\[
+ds^2=-dt^2+a(t)^2d\mathbf{x}^2.
+\]
 
-For a comoving observer (u^mu=(1,0,0,0)), the measured photon energy is
+For a comoving observer \(u^\mu=(1,0,0,0)\),
 
-[
-E=-p_mu u^mu.
-]
+\[
+E=-p_\mu u^\mu.
+\]
 
-Spatial translation symmetry gives a conserved comoving momentum magnitude (q>0). For a future-directed null geodesic,
+For a future-directed null geodesic with conserved comoving momentum magnitude \(q>0\),
 
-[
-p^mu p_mu=0,
-qquad
-E(t)=rac{q}{a(t)}.
-]
+\[
+E(t)=\frac{q}{a(t)},
+\qquad
+\dot E=-HE.
+\]
 
-Equivalently,
+Therefore
 
-[
-dot E=-HE,
-qquad
-H=rac{dot a}{a}.
-]
+\[
+E(t)=E(t_i)\exp\!\left[-\int_{t_i}^{t}H(t')dt'\right].
+\]
 
-Hence
-
-[
-E(t)=E(t_i)expleft[-int_{t_i}^{t}H(t'),dt'ight].
-]
-
-If (E(t_i)>0), then for every finite real integral,
-
-[
-E(t)>0.
-]
-
-If (a(t)	oinfty), then (E(t)	o0^+), but ordinary FLRW redshift does not continue the solution to (E<0).
+If \(E(t_i)>0\), then \(E(t)>0\) for every finite real integral. If \(a(t)\to\infty\), then \(E(t)\to0^+\), not through zero.
 
 ### Result 043A
 
-[
-oxed{
-	ext{FLRW redshift alone cannot cause }E>0	o0	o E<0.
-}
-]
-
-The sign of (E) is preserved by the evolution equation.
+\[
+\boxed{\text{FLRW redshift alone cannot cause }E>0\to0\to E<0.}
+\]
 
 ## 2. Negative photon-energy branch
 
-Assume phenomenologically a photon-like component with negative energy density.
-
 For an isotropic massless ensemble,
 
-[
-p_gamma=rac13ho_gamma,
-qquad
-w_gamma=rac{p_gamma}{ho_gamma}=rac13.
-]
+\[
+p_\gamma=\frac13\rho_\gamma,
+\qquad
+w_\gamma=\frac13.
+\]
 
-If (ho_-<0), then (p_-=ho_-/3<0), but still
+Even if a negative branch \(\rho_-<0\) is imposed,
 
-[
-w_-=rac13.
-]
+\[
+p_-=\frac13\rho_-,
+\qquad
+w_-=\frac13,
+\]
 
-Covariant conservation gives
+and separate conservation gives
 
-[
-dotho_-+4Hho_-=0,
-]
+\[
+\dot\rho_-+4H\rho_-=0,
+\qquad
+\rho_-\propto a^{-4}.
+\]
 
-so
+A cosmological constant instead obeys
 
-[
-ho_-(a)=ho_{-,0}a^{-4}.
-]
+\[
+p_\Lambda=-\rho_\Lambda,
+\qquad
+w_\Lambda=-1,
+\qquad
+\rho_\Lambda=\mathrm{const}.
+\]
 
-A cosmological constant instead has
+Thus a sign-flipped photon fluid is not vacuum dark energy.
 
-[
-p_Lambda=-ho_Lambda,
-qquad
-w_Lambda=-1,
-qquad
-ho_Lambda=	ext{const}.
-]
+The acceleration equation,
 
-Therefore a sign-flipped photon fluid is not ordinary vacuum dark energy.
-
-The FLRW acceleration equation is
-
-[
-rac{ddot a}{a}
+\[
+\frac{\ddot a}{a}
 =
--rac{4pi G}{3}
-sum_i(ho_i+3p_i).
-]
+-\frac{4\pi G}{3}\sum_i(\rho_i+3p_i),
+\]
 
-For negative radiation,
-
-[
-ho_-+3p_-=2ho_-<0,
-]
-
-so its formal contribution is accelerating. However its magnitude decays as (a^{-4}), so it does not provide a persistent late-time vacuum-like component.
+shows that negative radiation would formally contribute with an accelerating sign because \(\rho_-+3p_-=2\rho_-<0\), but its magnitude decays as \(a^{-4}\).
 
 ### Result 043B
 
-A negative-energy photon-like fluid can formally contribute with the accelerating sign, but
-
-[
-w=rac13,
-qquad
-|ho|propto a^{-4},
-]
-
-so it does not reproduce persistent dark energy.
+A negative photon-like branch can formally accelerate, but it does not reproduce persistent late-time dark energy.
 
 ## 3. Horizon crossing
 
-A cosmological horizon is a causal-accessibility boundary.
+A cosmological horizon is a causal-accessibility boundary. For a future-directed photon and a future-directed local timelike observer,
 
-The local energy measured by an observer is
+\[
+E_{\rm obs}=-p_\mu u^\mu>0.
+\]
 
-[
-E_{m obs}=-p_mu u^mu.
-]
+A photon becoming permanently unobservable to us does not imply a local zero or negative energy.
 
-For a future-directed photon and a future-directed local timelike observer,
-
-[
-E_{m obs}>0.
-]
-
-A photon becoming permanently unobservable to us does not imply that its locally measured energy becomes zero or negative.
-
-Thus
-
-[
-oxed{
-	ext{cosmological-horizon crossing}
-
-otRightarrow
-	ext{photon-energy sign reversal}.
-}
-]
-
-Negative conserved energies can arise in special stationary geometries such as ergoregions, but that is a different mechanism and not ordinary FLRW redshift.
+\[
+\boxed{\text{horizon crossing}\not\Rightarrow\text{energy-sign reversal}.}
+\]
 
 ## 4. Minimal conversion model
 
-A distinct hypothesis can be written as
+A distinct hypothesis is
 
-[
-gammalongrightarrow X,
-]
+\[
+\gamma\longrightarrow X,
+\]
 
-where (X) is a new vacuum-like degree of freedom rather than a negative-energy continuation of the same photon.
+where \(X\) is a new vacuum-like degree of freedom.
 
 Use
 
-[
-dotho_gamma+4Hho_gamma=-Q,
-]
+\[
+\dot\rho_\gamma+4H\rho_\gamma=-Q,
+\]
 
-[
-dotho_X+3H(1+w_X)ho_X=Q.
-]
+\[
+\dot\rho_X+3H(1+w_X)\rho_X=Q.
+\]
 
-Total stress-energy remains conserved.
+For dark-energy-like behavior require \(w_X\simeq-1\).
 
-For dark-energy-like behavior require approximately
+For the phenomenological ansatz
 
-[
-w_Xsimeq-1.
-]
+\[
+Q=\Gamma H\rho_\gamma,
+\]
 
-As a minimal phenomenological example,
+one gets
 
-[
-Q=Gamma Hho_gamma,
-qquad
-Gammage0.
-]
+\[
+\rho_\gamma(a)=
+\rho_{\gamma,i}
+\left(\frac{a}{a_i}\right)^{-(4+\Gamma)}.
+\]
 
-Then
+For \(w_X=-1\),
 
-[
-rac{dho_gamma}{dln a}
-=-(4+Gamma)ho_gamma,
-]
-
-hence
-
-[
-ho_gamma(a)
-=
-ho_{gamma,i}
-left(rac{a}{a_i}ight)^{-(4+Gamma)}.
-]
-
-For (w_X=-1),
-
-[
-rac{dho_X}{dln a}
-=
-Gammaho_gamma,
-]
-
-which gives
-
-[
-ho_X(a)
-=
-ho_{X,i}
+\[
+\rho_X(a)=
+\rho_{X,i}
 +
-rac{Gamma}{4+Gamma}ho_{gamma,i}
-left[
-1-
-left(rac{a}{a_i}ight)^{-(4+Gamma)}
-ight].
-]
+\frac{\Gamma}{4+\Gamma}\rho_{\gamma,i}
+\left[
+1-\left(\frac{a}{a_i}\right)^{-(4+\Gamma)}
+\right].
+\]
 
-Thus a radiation reservoir can mathematically feed a component that asymptotes to a constant energy density.
+This is mathematically consistent, but it requires a new interaction \(Q\), a distinct component \(X\), and its own equation of state.
 
-But this requires three genuinely new ingredients:
-
-1. a nonzero interaction (Q);
-2. a distinct component (X);
-3. an equation of state (w_Xsimeq-1).
-
-This does not follow from ordinary redshift (dot E=-HE).
-
-### Result 043C
-
-[
-oxed{
-	ext{radiation}	o	ext{vacuum-like energy}
-}
-]
-
-is mathematically consistent as an interacting-fluid model, but it is not equivalent to
-
-[
-E_gamma>0	o0	o E_gamma<0.
-]
-
-## 5. Why ordinary redshift loss is not automatically a source term
-
-For standard radiation,
-
-[
-dotho_gamma+4Hho_gamma=0.
-]
-
-The (4H) term already follows from covariant stress-energy conservation:
-
-- (3H) from dilution in physical volume;
-- (H) from redshift of each photon's energy.
-
-There is no additional local source term in standard GR.
-
-Therefore the redshift of photon energy in a comoving volume is not by itself evidence that a dark-energy component has been created.
-
-## 6. Terminal classification
+## 5. Terminal classification
 
 ### Strict zero-crossing hypothesis
 
-[
-oxed{
-	ext{geometry stretches an ordinary photon through }E=0	ext{ into }E<0
-}
-]
+\[
+\boxed{\text{geometry stretches an ordinary photon through }E=0\text{ into }E<0}
+\]
 
 **ANALYTIC FAIL in standard FLRW null-geodesic dynamics.**
 
-Reason:
-
-[
-E(t)=E_i e^{-int Hdt}
-]
-
-preserves sign.
-
 ### Negative-photon-dark-energy hypothesis
 
-[
-oxed{
-E_gamma<0
-Rightarrow
-	ext{ordinary dark energy}
-}
-]
+\[
+\boxed{E_\gamma<0\Rightarrow\text{ordinary dark energy}}
+\]
 
 **FAIL as stated.**
 
-A photon-like branch retains (w=1/3) and redshifts as (a^{-4}), rather than behaving as (wsimeq-1).
-
 ### Conversion hypothesis
 
-[
-oxed{
-gamma
-stackrel{Q[g,	ext{global causal data}]}{longrightarrow}
+\[
+\boxed{
+\gamma
+\stackrel{Q[g,\text{global causal data}]}{\longrightarrow}
 X,
-qquad
-w_Xsimeq-1
+\qquad
+w_X\simeq-1
 }
-]
+\]
 
 **MATHEMATICALLY OPEN.**
 
-This requires new dynamics and is the viable descendant of the original intuition.
-
-## 7. Next discriminating gate
-
-The next useful LTG question is:
-
-[
-oxed{
-	ext{Can global null/causal geometry derive a non-arbitrary }Q^mu
-	ext{ that transfers stress-energy from radiation to a vacuum-like sector?}
-}
-]
-
-A successful model must:
-
-1. preserve total covariant conservation,
-   [
-   
-abla_mu(T_gamma^{mu
-u}+T_X^{mu
-u})=0;
-   ]
-2. derive the sign and scale of (Q^mu) from geometry rather than fit them freely;
-3. generate (w_X<-1/3), ideally (w_Xsimeq-1);
-4. preserve or predict controlled deviations from the observed CMB spectrum and temperature-redshift law;
-5. satisfy photon-number / distance-duality constraints;
-6. produce at least one dimensionless observable not already present in generic interacting-dark-energy models.
+The next discriminating gate is whether geometry can derive a non-arbitrary \(Q^\mu\) rather than inserting it phenomenologically.
